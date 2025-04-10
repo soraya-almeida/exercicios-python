@@ -6,4 +6,4 @@ num2 = int(input("Informe outro valor: "))
 if num1 > num2:
     print("O primeiro valor é maior que o segundo valor!")
 else:
-    ("O segundo valor é maior que o segundo valor!")
+    print("O segundo valor é maior que o segundo valor!")
