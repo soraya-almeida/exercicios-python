@@ -6,3 +6,9 @@ Valor2 = int(input("Informe outro valor: "))
 Soma = Valor1 + Valor2
 
 print("A soma dos dois valores:", Soma)
+
+#CORREÇÃO⬇️
+
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+print("Soma:", a + b)

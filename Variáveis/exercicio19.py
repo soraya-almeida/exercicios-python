@@ -10,3 +10,10 @@ valor2 = valor_aux
 print(valor1)
 print(valor2)
 
+#CORREÇÃO⬇️
+
+a = input("A: ")
+b = input("B: ")
+a, b = b, a
+print("A:", a)
+print("B:", b)

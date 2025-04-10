@@ -8,3 +8,13 @@ elif num == 0:
     print("Esse número é zero!")
 else:
     print("Esse valor é negativo!")
+
+#CORREÇÃO⬇️
+
+numero = int(input("Digite um número: "))
+if numero > 0:
+    print("Positivo")
+elif numero < 0:
+    print("Negativo")
+else:
+    print("Zero")

@@ -6,3 +6,8 @@ if num % 5 == 0:
     print("Esse número é multiplo de 5!")
 else:
     print("Esse número não é multiplo de cinco!")
+
+#CORREÇÃO⬇️
+
+numero = int(input("Digite um número: "))
+print(numero % 5 == 0)

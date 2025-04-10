@@ -5,3 +5,8 @@ curso = str(input("Informe seu curso: "))
 
 print(nome, "está matriculado(a) no curso", curso)
 
+#CORREÇÃO⬇️
+
+nome = input("Nome: ")
+curso = input("Curso: ")
+print(f"{nome} está matriculado no curso de {curso}")

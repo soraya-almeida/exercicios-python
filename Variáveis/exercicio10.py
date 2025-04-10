@@ -6,3 +6,8 @@ if senha == "python123" :
     print("Você acertou a senha!")
 else:
     print("Você errou a senha, tente novamente!")
+
+#CORREÇÃO⬇️
+
+senha = input("Digite a senha: ")
+print(senha == "python123")

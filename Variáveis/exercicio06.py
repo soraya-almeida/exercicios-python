@@ -7,3 +7,8 @@ int_numero = int(numero)
 final = int_numero * 2
 
 print("O número digitado foi", int_numero, "e o dobro é", final)
+
+#CORREÇÃO⬇️
+numero = int(input("Digite um número: "))
+print("Dobro:", numero * 2)
+

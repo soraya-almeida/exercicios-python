@@ -6,3 +6,10 @@ peso = float(input("Informe o seu peso: "))
 imc = peso / (altura ** 2)
 
 print("O seu IMC é", imc)
+
+#CORREÇÃO⬇️
+
+peso = float(input("Peso (kg): "))
+altura = float(input("Altura (m): "))
+imc = peso / (altura ** 2)
+print("IMC:", imc)
