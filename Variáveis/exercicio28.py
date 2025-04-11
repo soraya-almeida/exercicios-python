@@ -5,3 +5,11 @@ Valor = float(input("Informe um número: "))
 tipo = type(Valor)
 
 print(tipo)
+
+#CORREÇÃO⬇️
+
+numero = float(input("Digite um número: "))
+if numero.is_integer():
+    print("É um número inteiro.")
+else:
+    print("É um número decimal.")

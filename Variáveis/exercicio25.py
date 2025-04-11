@@ -6,3 +6,8 @@ minuscula = nome_completo.lower()
 
 print("Aqui está seu nome MAIUSCULO: ", maiuscula)
 print("Aqui está seu nome MINUSCULO: ", minuscula)
+
+#CORREÇÃO⬇️
+
+nome = input("Digite seu nome completo: ")
+print("Nome em maiúsculas:", nome.upper())

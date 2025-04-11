@@ -6,3 +6,10 @@ pago = float(input("Informe o valor pago: "))
 troco = pago - compra
 
 print("Seu troco é: ", troco)
+
+#CORREÇÃO⬇️
+
+compra = float(input("Valor da compra: R$"))
+pago = float(input("Valor pago: R$"))
+troco = pago - compra
+print(f"Troco: R${troco:.2f}")

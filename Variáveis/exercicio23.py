@@ -7,3 +7,7 @@ if num < 0:
 else:
     print(False)
 
+#CORREÇÃO⬇️
+
+numero = float(input("Digite um número: "))
+print("É negativo?", numero < 0)

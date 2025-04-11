@@ -14,3 +14,14 @@ if esporte == "Sim" or "s" or "S" or "sim":
 else:
     print("Pratica: False")
 
+#CORREÇÃO⬇️
+
+nome = input("Nome: ")
+idade = int(input("Idade: "))
+peso = float(input("Peso (kg): "))
+esporte = input("Pratica esportes? (sim/não): ").lower() == "sim"
+print("\n--- Ficha Cadastral ---")
+print("Nome:", nome)
+print("Idade:", idade)
+print("Peso:", peso)
+print("Pratica esportes?", esporte)
