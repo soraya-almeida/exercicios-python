@@ -3,3 +3,8 @@
 frase = input("Informe uma frase: ")
 
 print(f"BIP BOP {frase}")
+
+#CORREÇÃO⬇️
+
+frase = input("Digite uma frase: ")
+print(f"BIP BOP {frase} BIP BOP")

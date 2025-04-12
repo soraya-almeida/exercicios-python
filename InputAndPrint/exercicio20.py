@@ -13,3 +13,10 @@ print(minuscula)
 
 quantidade = len(frase)
 print(quantidade)
+
+#CORREÇÃO⬇️
+
+frase = input("Digite uma frase: ")
+print("Maiúsculas:", frase.upper())
+print("Minúsculas:", frase.lower())
+print("Total de letras (sem espaços):", len(frase.replace(" ", "")))
