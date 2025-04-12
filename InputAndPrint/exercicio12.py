@@ -1,10 +1,8 @@
 #Peça dia, mês e ano separadamente, depois mostre a data no formato:
 #"Você nasceu em DD/MM/AAAA."
 
-nasceu = input("Informe sua data de aniversário: ")
+dia = input("Informe o dia do seu nascimento: ")
+mes = input("Informe o mês do seu nascimento: ")
+ano = input("Informe o ano do seu nascimeto: ")
 
-from datetime import datetime
-data_string = nasceu
-data_datetime = datetime.strptime(data_string, "%d/%m/%Y")
-
-print(data_string)
+print(f"Você nasceu em {dia}/{mes}/{ano}.")
