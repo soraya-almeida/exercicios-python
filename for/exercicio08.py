@@ -1,8 +1,4 @@
-#Conte quantas palavras começam com a letra "b":
-#Tipo: "bola", "bicho"...
+#Repita a palavra "Python" 5 vezes.
 
-palavras = ["bicho", "bola", "banco"]
-
-for palavra in palavras:
-    if palavra.count("b") == "b":
-        print(palavra)
+for _ in range(5):
+    print("Python")
