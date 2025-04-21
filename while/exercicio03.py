@@ -8,3 +8,5 @@ while senha != "python123":
     senha = str(input("Informe a senha: "))
 
 print("Você acertou a senha!")
+
+# esse sinal != significa: enquanto for diferente de...
